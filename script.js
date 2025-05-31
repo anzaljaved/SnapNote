@@ -9,6 +9,7 @@ const noteList = document.getElementById('list');
 let dragging = document.getElementById('#note');
 let color = colorInput.value;
 
+
 /* FUNCTION CALLS */
 getFromLocalStorage();
 updateColListBackground();
