@@ -28,3 +28,6 @@ A visual note-taking app built with HTML, CSS, and JavaScript — designed to he
 <li>CSS</li>
 
 <li>JavaScript</li>
+
+##🌍 Live Demo
+Check out the live site here: https://snapnote-by-anzal.netlify.app
