@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Snap Note</title>
 </head>
 <body>
     <header>
@@ -14,10 +14,14 @@
     </header>
     <div id="container">
         <form>
-            <input value="#00000" class = 'colors' type="color" id="colorInput">
-            <button class="button" type="button" id="addNoteBtn">+</button>
-            <button class="button" type="button" id="addColumnBtn">+</button>
-            <button class="button" type="button" id="addTodoBtn">+</button>
+            <h2 id="Title">Snap Note</h2>
+            <div class="AddBtns">
+                <input value="#00000" class = 'colors' type="color" id="colorInput">
+                <button class="button" type="button" id="addNoteBtn"><img id="note-icon" src="images/Note.png" alt="new-note"></button>
+                <button class="button" type="button" id="addColumnBtn"><img id="col-icon" src="images/Column.png" alt="new-col"></button>
+                <button class="button" type="button" id="addTodoBtn"><img id="todo-icon" src="images/To-Do List.png" alt="new-todo"></button>
+            </div>
+            
         </form>
         <div id="list">
             <!--<div class="column drag" id="column">

@@ -27,17 +27,29 @@ body
 
 form
 {
+
     position: fixed;
     z-index: 100;
     width: max-content;
-    display: flex;
-    justify-content: space-evenly;
     gap: 10px;
     align-items: center;
     border-radius: 24px;
     background-color: white;
     padding: 10px;
     box-shadow: 3px 3px 10px 3px rgb(201, 201, 201);
+}
+#Title
+{
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+.AddBtns
+{
+    align-items: center;
+
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 #list
@@ -49,14 +61,16 @@ form
 {
     border-radius: 50px;
     background-color: transparent;
-    border: 2px solid grey;
+    border:2px solid    rgb(65, 65, 65);
     height: 30px;
     width: 30px;
+    
 }
 
 .colors::-webkit-color-swatch-wrapper
 {
-    padding: 3px;
+    justify-items: center;
+    padding: 2px;
 }
 
 .colors::-webkit-color-swatch
@@ -64,7 +78,7 @@ form
     border-radius: 50%;
 }
 
-.addBtn,.button
+.button
 {
     background-color: transparent;
     display: flex;
@@ -73,7 +87,22 @@ form
     font-size: larger;
     border: 1px solid transparent;
     height: 20px;
-    width: 20px;
+    width: 60px;
+}
+
+#note-icon
+{
+    width: 35px;
+}
+
+#col-icon
+{
+    width: 28px;
+}
+
+#todo-icon
+{
+    width: 30px;
 }
 
 .column
