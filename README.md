@@ -1,4 +1,4 @@
-#📝 SnapNote
+<h1>📝 SnapNote</h1>
 A visual note-taking app built with HTML, CSS, and JavaScript — designed to help you create, group, and organize notes and todos visually.
 
 <h3>⚡ Features:</h3>
@@ -29,5 +29,5 @@ A visual note-taking app built with HTML, CSS, and JavaScript — designed to he
 
 <li>JavaScript</li>
 
-##🌍 Live Demo
+<h3>🌍 Live Demo</h3>
 Check out the live site here: https://snapnote-by-anzal.netlify.app
