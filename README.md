@@ -27,4 +27,4 @@ A visual note-taking app built with HTML, CSS, and JavaScript — designed to he
 
 <li>CSS</li>
 
-<li>JavaScript (Vanilla)</li>
+<li>JavaScript</li>
